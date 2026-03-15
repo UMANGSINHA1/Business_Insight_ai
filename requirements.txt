@@ -5,9 +5,9 @@ plotly
 langchain==0.1.16
 langchain-community==0.0.34
 langchain-openai==0.0.8
+pydantic==1.10.13
 python-dotenv
 openai
 requests
 beautifulsoup4
-pydantic
 SQLAlchemy
