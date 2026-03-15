@@ -2,9 +2,9 @@ streamlit
 pandas
 numpy
 plotly
-langchain
-langchain-community
-langchain-openai
+langchain==0.1.16
+langchain-community==0.0.34
+langchain-openai==0.0.8
 python-dotenv
 openai
 requests
