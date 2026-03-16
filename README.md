@@ -1,9 +1,3 @@
-Great — here is a **more professional GitHub README** that looks **much stronger to recruiters**. It includes badges, structure, architecture, and demo sections.
-
-You can **copy-paste this directly into your `README.md`**.
-
----
-
 # Business Insight AI 📊🤖
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
