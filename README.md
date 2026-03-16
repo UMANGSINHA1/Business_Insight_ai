@@ -189,6 +189,3 @@ It combines:
 B.Tech Electronics and Communication Engineering
 IIT ISM Dhanbad
 
-
-1️⃣ **Architecture diagram image** (looks very professional)
-2️⃣ **GIF demo of your dashboard in action** (recruiters love this).
