@@ -115,7 +115,7 @@ Which region generated the highest profit?
 ## ⚙️ System Architecture
 
 <p align="center">
-  <img src="images/system_architecture.png" width="750">
+  <img src="system_architecture.png" width="750">
 </p>
 
 
