@@ -113,19 +113,18 @@ Which region generated the highest profit?
 
 # ⚙️ System Architecture
 
-```
-Global Superstore CSV Dataset
-            ↓
-      SQL Server Database
-            ↓
-      Python (pyodbc + pandas)
-            ↓
-      Streamlit Dashboard
-            ↓
-      LangChain AI Assistant
-```
 
----
+flowchart TD
+    A[Global Superstore CSV Dataset] --> B[SQL Server Database]
+    B --> C[Python Backend<br>(pyodbc + pandas)]
+    C --> D[Streamlit Dashboard]
+    D --> E[LangChain AI Assistant]
+
+    E -->|Natural Language Questions| C
+    C -->|SQL Queries| B
+    B -->|Query Results| C
+    C -->|Insights & Visualizations| D
+
 
 # 📊 Dataset
 
