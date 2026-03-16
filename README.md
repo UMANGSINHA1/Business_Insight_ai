@@ -112,8 +112,7 @@ Which region generated the highest profit?
 ---
 
 # ⚙️ System Architecture
-
-
+```mermaid
 flowchart TD
     A[Global Superstore CSV Dataset] --> B[SQL Server Database]
     B --> C[Python Backend<br>(pyodbc + pandas)]
@@ -124,6 +123,7 @@ flowchart TD
     C -->|SQL Queries| B
     B -->|Query Results| C
     C -->|Insights & Visualizations| D
+```
 
 
 # 📊 Dataset
